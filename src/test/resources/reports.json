@@ -1,0 +1,86 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-16T08:56:09.894Z",
+        "line": 4,
+        "name": "To validate the create account functionality of gmail step1 application",
+        "description": "",
+        "id": "to-validate-the-create-account-functionality-gmail-application;to-validate-the-create-account-functionality-of-gmail-step1-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4301219400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user should be in google page",
+            "match": {
+              "location": "step1.the_user_should_be_in_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1992709900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user has to click searchbar and enter gmail",
+            "match": {
+              "location": "step1.the_user_has_to_click_searchbar_and_enter_gmail()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4452163900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user has to click gmail first link",
+            "match": {
+              "location": "step1.the_user_has_to_click_gmail_first_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2037257900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user has to click create an account button",
+            "match": {
+              "location": "step1.the_user_has_to_click_create_an_account_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@step1"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the create account functionality gmail application",
+    "description": "",
+    "id": "to-validate-the-create-account-functionality-gmail-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/1stepGmail.feature",
+    "tags": [
+      {
+        "name": "@step1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

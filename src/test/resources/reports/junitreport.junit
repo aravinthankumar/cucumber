@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="27.502271">
+<testcase classname="To validate the create account functionality gmail application" name="To validate the create account functionality of gmail step1 application" time="10.613161">
+<system-out><![CDATA[Given The user should be in google page.....................................passed
+When The user has to click searchbar and enter gmail........................passed
+And The user has to click gmail first link..................................passed
+Then The user has to click create an account button.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the create your account functionality gmail application" name="To validate the create your account functionality of gmail step2 application" time="1.139873">
+<system-out><![CDATA[Given The user should be in create your account page........................passed
+When The user has to fill valid "aravinthan" "arumachalam" and "aravind25th".passed
+And The user has to fill valid "Aravinth789654" and "Aravinth789654"........passed
+And The user has to click show password.....................................passed
+Then The user has to click next step........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the verifying your phone number functionality of gmail application" name="To Validate the verifying your phone number functionality of step3 application" time="15.749237">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.base_create_gmail_account.Step3.the_user_has_to_click_next(Step3.java:42)&#13;&#10;&#9;at ✽.The user has to click next(file:src/test/resources/Features/3stepVerificationPhoneNumber.feature:8)&#13;&#10;"><![CDATA[Given The user should be in verifying your phone number page................passed
+When The user has to click and select country...............................passed
+And The user should be enter phone number...................................passed
+Then The user has to click next.............................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.base_create_gmail_account.Step3.the_user_has_to_click_next(Step3.java:42)
+	at ✽.The user has to click next(file:src/test/resources/Features/3stepVerificationPhoneNumber.feature:8)
+]]></failure>
+</testcase>
+</testsuite>
